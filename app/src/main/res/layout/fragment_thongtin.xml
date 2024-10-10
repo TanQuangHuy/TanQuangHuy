@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context="Student.ThongTinFragment">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_account"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Tán Quang Huy"
+        android:textSize="25dp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:text="Mã sinh viên: 221150531122320"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:text="Ngày sinh: 23/02/2004"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:text="Quê quán: Xã Hòa Khương, huyện Hòa Vang, thành phố Đà Nẵng"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
