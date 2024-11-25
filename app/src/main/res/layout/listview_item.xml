@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_account"
+        android:scaleType="centerCrop" />
+
+    <!-- Nội dung -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huy đẹp trai"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+        <Button
+            android:id="@+id/buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Buy Now" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_delete" />
+    <!-- Nút hành động -->
+
+</LinearLayout>
